@@ -7,7 +7,7 @@ module.exports = class Email {
     this.to = user.email;
     this.firstName = user.name.split(' ')[0];
     this.url = url;
-    this.from = `Jonas Schmedtmann <${process.env.EMAIL_FROM}>`;
+    this.from = `梦之旅团队 <${process.env.EMAIL_FROM}>`;
   }
 
   newTransport() {
@@ -55,13 +55,13 @@ module.exports = class Email {
   }
 
   async sendWelcome() {
-    await this.send('welcome', 'Welcome to the Natours Family!');
+    await this.send('welcome', '欢迎加入梦之旅！');
   }
 
   async sendPasswordReset() {
     await this.send(
       'passwordReset',
-      'Your password reset token (valid for only 10 minutes)'
+      '您的密码重置令牌（仅10分钟内有效）'
     );
   }
 };

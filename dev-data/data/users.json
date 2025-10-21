@@ -1,7 +1,7 @@
 [
   {
     "_id": "5c8a1d5b0190b214360dc057",
-    "name": "Jonas Schmedtmann",
+    "name": "梦之旅管理员",
     "email": "admin@natours.io",
     "role": "admin",
     "active": true,
@@ -127,7 +127,7 @@
   },
   {
     "_id": "5c8a23de2f8fb814b56fa18e",
-    "name": "Max Smith",
+    "name": "王强",
     "email": "max@example.com",
     "role": "user",
     "active": true,
@@ -172,7 +172,7 @@
   },
   {
     "_id": "5c8a24a02f8fb814b56fa193",
-    "name": "Lisa Brown",
+    "name": "李娜",
     "email": "lisa@example.com",
     "role": "user",
     "active": true,
