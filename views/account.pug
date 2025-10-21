@@ -12,23 +12,23 @@ block content
     .user-view
       nav.user-view__menu
         ul.side-nav
-          +navItem('#', 'Settings', 'settings', true)
-          +navItem('/my-tours', 'My bookings', 'briefcase')
-          +navItem('#', 'My reviews', 'star')
-          +navItem('#', 'Billing', 'credit-card')
+          +navItem('#', '设置', 'settings', true)
+          +navItem('/my-tours', '我的预订', 'briefcase')
+          +navItem('#', '我的评论', 'star')
+          +navItem('#', '账单', 'credit-card')
 
         - if (user.role === 'admin')
           .admin-nav
-            h5.admin-nav__heading Admin
+            h5.admin-nav__heading 管理员
             ul.side-nav
-              +navItem('#', 'Manage tours', 'map')
-              +navItem('#', 'Manage users', 'users')
-              +navItem('#', 'Manage reviews', 'star')
-              +navItem('#', 'Manage bookings', 'briefcase')
+              +navItem('#', '管理旅游', 'map')
+              +navItem('#', '管理用户', 'users')
+              +navItem('#', '管理评论', 'star')
+              +navItem('#', '管理预订', 'briefcase')
 
       .user-view__content
         .user-view__form-container
-          h2.heading-secondary.ma-bt-md Your account settings
+          h2.heading-secondary.ma-bt-md 您的账户设置
           
           //- WITHOUT API
           //- form.form.form-user-data(action='/submit-user-data' method='POST' enctype='multipart/form-data')
@@ -36,32 +36,32 @@ block content
           //- WITH API
           form.form.form-user-data
             .form__group
-              label.form__label(for='name') Name
+              label.form__label(for='name') 姓名
               input#name.form__input(type='text', value=`${user.name}`, required, name='name')
             .form__group.ma-bt-md
-              label.form__label(for='email') Email address
+              label.form__label(for='email') 邮箱地址
               input#email.form__input(type='email', value=`${user.email}`, required, name='email')
             .form__group.form__photo-upload
-              img.form__user-photo(src=`/img/users/${user.photo}`, alt='User photo')
+              img.form__user-photo(src=`/img/users/${user.photo}`, alt='用户照片')
               input.form__upload(type='file', accept='image/*', id='photo', name='photo')
-              label(for='photo') Choose new photo
+              label(for='photo') 选择新照片
               
             .form__group.right
-              button.btn.btn--small.btn--green Save settings
+              button.btn.btn--small.btn--green 保存设置
               
         .line &nbsp;
         
         .user-view__form-container
-          h2.heading-secondary.ma-bt-md Password change
+          h2.heading-secondary.ma-bt-md 修改密码
           form.form.form-user-password
             .form__group
-              label.form__label(for='password-current') Current password
+              label.form__label(for='password-current') 当前密码
               input#password-current.form__input(type='password', placeholder='••••••••', required, minlength='8')
             .form__group
-              label.form__label(for='password') New password
+              label.form__label(for='password') 新密码
               input#password.form__input(type='password', placeholder='••••••••', required, minlength='8')
             .form__group.ma-bt-lg
-              label.form__label(for='password-confirm') Confirm password
+              label.form__label(for='password-confirm') 确认新密码
               input#password-confirm.form__input(type='password', placeholder='••••••••', required, minlength='8')
             .form__group.right
-              button.btn.btn--small.btn--green.btn--save-password Save password
+              button.btn.btn--small.btn--green.btn--save-password 保存密码

@@ -3,23 +3,23 @@ extends base
 block content
   main.main
     .login-form
-      h2.heading-secondary.ma-bt-lg Create your account
+      h2.heading-secondary.ma-bt-lg 创建您的账户
       form.form.form--login#signup-form
         .form__group
-          label.form__label(for='name') Name
-          input#name.form__input(type='text', placeholder='Your name', required)
+          label.form__label(for='name') 姓名
+          input#name.form__input(type='text', placeholder='您的姓名', required)
         .form__group
-          label.form__label(for='email') Email address
-          input#email.form__input(type='email', placeholder='you@example.com', required)
+          label.form__label(for='email') 邮箱地址
+          input#email.form__input(type='email', placeholder='your@example.com', required)
         .form__group.ma-bt-md
-          label.form__label(for='password') Password
+          label.form__label(for='password') 密码
           input#password.form__input(type='password', placeholder='••••••••', required, minlength='8')
         .form__group.ma-bt-md
-          label.form__label(for='passwordConfirm') Confirm password
+          label.form__label(for='passwordConfirm') 确认密码
           input#passwordConfirm.form__input(type='password', placeholder='••••••••', required, minlength='8')
         .form__group
-          button.btn.btn--green Sign up
+          button.btn.btn--green 注册
 
     .login-form__redirect
-      | Already have an account?
-      a(href='/login') Log in
+      | 已经有账户了？
+      a(href='/login') 立即登录

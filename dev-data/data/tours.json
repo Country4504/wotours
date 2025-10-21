@@ -1,10 +1,10 @@
 [
   {
     "startLocation": {
-      "description": "Miami, USA",
+      "description": "美国佛罗里达州迈阿密",
       "type": "Point",
       "coordinates": [-80.185942, 25.774772],
-      "address": "301 Biscayne Blvd, Miami, FL 33132, USA"
+      "address": "美国佛罗里达州迈阿密市比斯坎大道301号，邮编33132"
     },
     "ratingsAverage": 4.8,
     "ratingsQuantity": 6,
@@ -15,40 +15,40 @@
       "2021-08-18T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c2955",
-    "name": "The Sea Explorer",
+    "name": "海洋探险家",
     "duration": 7,
     "maxGroupSize": 15,
-    "difficulty": "medium",
+    "difficulty": "中等",
     "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a1f4e2f8fb814b56fa185"],
     "price": 497,
-    "summary": "Exploring the jaw-dropping US east coast by foot and by boat",
-    "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "summary": "徒步和乘船探索令人叹为观止的美国东海岸",
+    "description": "探索令人惊叹的美国东海岸，从迈阿密到佛罗里达群岛。这次旅程将带您体验湛蓝的海水、美丽的海滩和丰富的海洋生物。您将徒步穿越国家公园，乘船游览珊瑚礁，还有机会观赏海豚和海牛等海洋生物。这是一次难忘的海洋探险之旅。",
     "imageCover": "tour-2-cover.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c2959",
-        "description": "Lummus Park Beach",
+        "description": "卢默斯公园海滩",
         "type": "Point",
         "coordinates": [-80.128473, 25.781842],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c2958",
-        "description": "Islamorada",
+        "description": "伊斯兰莫拉达",
         "type": "Point",
         "coordinates": [-80.647885, 24.909047],
         "day": 2
       },
       {
         "_id": "5c88fa8cf4afda39709c2957",
-        "description": "Sombrero Beach",
+        "description": "松布雷罗海滩",
         "type": "Point",
         "coordinates": [-81.0784, 24.707496],
         "day": 3
       },
       {
         "_id": "5c88fa8cf4afda39709c2956",
-        "description": "West Key",
+        "description": "西礁岛",
         "type": "Point",
         "coordinates": [-81.768719, 24.552242],
         "day": 5
@@ -57,10 +57,10 @@
   },
   {
     "startLocation": {
-      "description": "Banff, CAN",
+      "description": "加拿大班夫国家公园",
       "type": "Point",
       "coordinates": [-115.570154, 51.178456],
-      "address": "224 Banff Ave, Banff, AB, Canada"
+      "address": "加拿大阿尔伯塔省班夫市班夫大道224号"
     },
     "ratingsAverage": 5,
     "ratingsQuantity": 9,
@@ -71,399 +71,376 @@
       "2021-10-05T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c2951",
-    "name": "The Forest Hiker",
+    "name": "森林徒步者",
     "duration": 5,
     "maxGroupSize": 25,
-    "difficulty": "easy",
+    "difficulty": "容易",
     "guides": [
       "5c8a21d02f8fb814b56fa189",
       "5c8a201e2f8fb814b56fa186",
       "5c8a1f292f8fb814b56fa184"
     ],
     "price": 397,
-    "summary": "Breathtaking hike through the Canadian Banff National Park",
-    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "summary": "穿越加拿大班夫国家公园的壮丽徒步之旅",
+    "description": "在加拿大最美丽的班夫国家公园中体验令人窒息的自然美景。这次徒步之旅将带您穿越原始森林、冰川湖泊和雄伟的山脉。您将看到著名的路易斯湖和莫雷恩湖，探索哥伦比亚冰原，还有机会遇见黑熊、麋鹿和山羊等野生动物。这是一次真正贴近大自然的冒险之旅。",
     "imageCover": "tour-1-cover.jpg",
     "locations": [
       {
         "_id": "5c88fa8cf4afda39709c2954",
-        "description": "Banff National Park",
+        "description": "班夫国家公园",
         "type": "Point",
         "coordinates": [-116.214531, 51.417611],
         "day": 1
       },
       {
         "_id": "5c88fa8cf4afda39709c2953",
-        "description": "Jasper National Park",
+        "description": "贾斯珀国家公园",
         "type": "Point",
         "coordinates": [-118.076152, 52.875223],
         "day": 3
-      },
-      {
-        "_id": "5c88fa8cf4afda39709c2952",
-        "description": "Glacier National Park of Canada",
-        "type": "Point",
-        "coordinates": [-117.490309, 51.261937],
-        "day": 5
       }
     ]
   },
   {
     "startLocation": {
-      "description": "Aspen, USA",
+      "description": "纳米比亚温得和克",
       "type": "Point",
-      "coordinates": [-106.822318, 39.190872],
-      "address": "419 S Mill St, Aspen, CO 81611, USA"
+      "coordinates": [17.081616, -22.564747],
+      "address": "纳米比亚温得和克市独立大道24号"
     },
-    "ratingsAverage": 4.5,
-    "ratingsQuantity": 6,
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 19,
     "images": ["tour-3-1.jpg", "tour-3-2.jpg", "tour-3-3.jpg"],
     "startDates": [
-      "2022-01-05T10:00:00.000Z",
-      "2022-02-12T10:00:00.000Z",
-      "2023-01-06T10:00:00.000Z"
+      "2021-07-10T09:00:00.000Z",
+      "2021-08-15T09:00:00.000Z",
+      "2021-09-20T09:00:00.000Z"
     ],
     "_id": "5c88fa8cf4afda39709c295a",
-    "name": "The Snow Adventurer",
-    "duration": 4,
+    "name": "撒哈拉沙漠冒险",
+    "duration": 14,
     "maxGroupSize": 10,
-    "difficulty": "difficult",
-    "guides": [
-      "5c8a21d02f8fb814b56fa189",
-      "5c8a23412f8fb814b56fa18c",
-      "5c8a1f4e2f8fb814b56fa185"
-    ],
-    "price": 997,
-    "summary": "Exciting adventure in the snow with snowboarding and skiing",
-    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+    "difficulty": "困难",
+    "guides": ["5c8a1d5b0190b214360dc058", "5c8a23c82f8fb814b56fa18d"],
+    "price": 1297,
+    "summary": "穿越世界上最壮观的沙漠景观",
+    "description": "深入撒哈拉沙漠，体验世界最大的热带沙漠。这次冒险将带您穿越金色的沙丘、古老的绿洲和神秘的沙漠城市。您将骑骆驼穿越沙漠，在星空下露营，访问柏柏尔村庄，体验正宗的沙漠文化。这是一次真正的荒野冒险之旅，将让您终生难忘。",
     "imageCover": "tour-3-cover.jpg",
     "locations": [
       {
-        "_id": "5c88fa8cf4afda39709c295c",
-        "description": "Aspen Highlands",
+        "_id": "5c88fa8cf4afda39709c295d",
+        "description": "苏斯峡谷",
         "type": "Point",
-        "coordinates": [-106.855385, 39.182677],
-        "day": 1
+        "coordinates": [9.560423, 31.821226],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295c",
+        "description": "杰姆圆形剧场",
+        "type": "Point",
+        "coordinates": [10.226354, 35.678171],
+        "day": 4
       },
       {
         "_id": "5c88fa8cf4afda39709c295b",
-        "description": "Beaver Creek",
+        "description": "撒哈拉沙漠",
         "type": "Point",
-        "coordinates": [-106.516623, 39.60499],
-        "day": 2
+        "coordinates": [3.056761, 28.05671],
+        "day": 6
       }
     ]
   },
   {
     "startLocation": {
-      "description": "Las Vegas, USA",
+      "description": "西班牙巴塞罗那",
       "type": "Point",
-      "coordinates": [-115.172652, 36.110904],
-      "address": "3663 S Las Vegas Blvd, Las Vegas, NV 89109, USA"
-    },
-    "ratingsAverage": 4.7,
-    "ratingsQuantity": 7,
-    "images": ["tour-5-1.jpg", "tour-5-2.jpg", "tour-5-3.jpg"],
-    "startDates": [
-      "2021-08-05T09:00:00.000Z",
-      "2022-03-20T10:00:00.000Z",
-      "2022-08-12T09:00:00.000Z"
-    ],
-    "_id": "5c88fa8cf4afda39709c2961",
-    "name": "The Park Camper",
-    "duration": 10,
-    "maxGroupSize": 15,
-    "difficulty": "medium",
-    "guides": [
-      "5c8a21f22f8fb814b56fa18a",
-      "5c8a23412f8fb814b56fa18c",
-      "5c8a201e2f8fb814b56fa186"
-    ],
-    "price": 1497,
-    "summary": "Breathing in Nature in America's most spectacular National Parks",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!",
-    "imageCover": "tour-5-cover.jpg",
-    "locations": [
-      {
-        "_id": "5c88fa8cf4afda39709c2965",
-        "description": "Zion Canyon National Park",
-        "type": "Point",
-        "coordinates": [-112.987418, 37.198125],
-        "day": 1
-      },
-      {
-        "_id": "5c88fa8cf4afda39709c2964",
-        "description": "Antelope Canyon",
-        "type": "Point",
-        "coordinates": [-111.376161, 36.86438],
-        "day": 4
-      },
-      {
-        "_id": "5c88fa8cf4afda39709c2963",
-        "description": "Grand Canyon National Park",
-        "type": "Point",
-        "coordinates": [-112.115763, 36.058973],
-        "day": 5
-      },
-      {
-        "_id": "5c88fa8cf4afda39709c2962",
-        "description": "Joshua Tree National Park",
-        "type": "Point",
-        "coordinates": [-116.107963, 34.011646],
-        "day": 9
-      }
-    ]
-  },
-  {
-    "startLocation": {
-      "description": "NYC, USA",
-      "type": "Point",
-      "coordinates": [-73.985141, 40.75894],
-      "address": "Manhattan, NY 10036, USA"
+      "coordinates": [2.176111, 41.385064],
+      "address": "西班牙巴塞罗那市格拉西亚大道20号"
     },
     "ratingsAverage": 4.6,
-    "ratingsQuantity": 5,
+    "ratingsQuantity": 12,
     "images": ["tour-4-1.jpg", "tour-4-2.jpg", "tour-4-3.jpg"],
     "startDates": [
-      "2021-03-11T10:00:00.000Z",
-      "2021-05-02T09:00:00.000Z",
-      "2021-06-09T09:00:00.000Z"
+      "2021-05-01T09:00:00.000Z",
+      "2021-05-20T09:00:00.000Z",
+      "2021-06-10T09:00:00.000Z"
     ],
-    "_id": "5c88fa8cf4afda39709c295d",
-    "name": "The City Wanderer",
-    "duration": 9,
+    "_id": "5c88fa8cf4afda39709c295f",
+    "name": "城市自行车之旅",
+    "duration": 5,
     "maxGroupSize": 20,
-    "difficulty": "easy",
-    "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a201e2f8fb814b56fa186"],
-    "price": 1197,
-    "summary": "Living the life of Wanderlust in the US' most beatiful cities",
-    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat lorem ipsum dolor sit amet.\nConsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat!",
+    "difficulty": "容易",
+    "guides": ["5c8a24402f8fb814b56fa190", "5c8a1e1a2f8fb814b56fa182"],
+    "price": 899,
+    "summary": "在自行车上体验欧洲最美城市的魅力",
+    "description": "骑自行车探索巴塞罗那、巴黎和阿姆斯特丹的迷人街道。这次旅程将带您领略欧洲城市的文化底蕴，参观世界著名的博物馆和地标建筑，品尝当地美食。您将骑行在城市的历史街区，穿越美丽的公园，沿着河岸欣赏城市风光。这是一次文化、美食和运动的完美结合之旅。",
     "imageCover": "tour-4-cover.jpg",
     "locations": [
       {
-        "_id": "5c88fa8cf4afda39709c2960",
-        "description": "New York",
+        "_id": "5c88fa8cf4afda39709c2962",
+        "description": "巴塞罗那圣家堂",
         "type": "Point",
-        "coordinates": [-73.967696, 40.781821],
+        "coordinates": [2.174447, 41.40359],
         "day": 1
       },
       {
-        "_id": "5c88fa8cf4afda39709c295f",
-        "description": "Los Angeles",
+        "_id": "5c88fa8cf4afda39709c2961",
+        "description": "巴黎埃菲尔铁塔",
         "type": "Point",
-        "coordinates": [-118.324396, 34.097984],
+        "coordinates": [2.294587, 48.858093],
         "day": 3
       },
       {
-        "_id": "5c88fa8cf4afda39709c295e",
-        "description": "San Francisco",
+        "_id": "5c88fa8cf4afda39709c2960",
+        "description": "阿姆斯特丹运河",
         "type": "Point",
-        "coordinates": [-122.408865, 37.787825],
+        "coordinates": [4.889691, 52.37404],
         "day": 5
       }
     ]
   },
   {
     "startLocation": {
-      "description": "California, USA",
+      "description": "肯尼亚内罗毕",
       "type": "Point",
-      "coordinates": [-118.803461, 34.006072],
-      "address": "29130 Cliffside Dr, Malibu, CA 90265, USA"
+      "coordinates": [36.827446, -1.292066],
+      "address": "肯尼亚内罗毕市肯雅塔大道100号"
     },
-    "ratingsAverage": 3.9,
-    "ratingsQuantity": 7,
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 15,
+    "images": ["tour-5-1.jpg", "tour-5-2.jpg", "tour-5-3.jpg"],
+    "startDates": [
+      "2021-06-10T09:00:00.000Z",
+      "2021-07-15T09:00:00.000Z",
+      "2021-08-25T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2963",
+    "name": "野生动物摄影之旅",
+    "duration": 10,
+    "maxGroupSize": 12,
+    "difficulty": "中等",
+    "guides": ["5c8a1dfa2f8fb814b56fa181", "5c8a245f2f8fb814b56fa191"],
+    "price": 1497,
+    "summary": "在非洲大草原上拍摄野生动物的精彩瞬间",
+    "description": "深入肯尼亚和坦桑尼亚的野生动物保护区，体验世界顶级的野生动物观赏之旅。您将前往马赛马拉、塞伦盖蒂和恩戈罗恩戈罗火山口，亲眼见证'大迁徙'的壮观场面。专业向导将带您追踪非洲五霸：狮子、大象、豹子、犀牛和野牛。这是摄影师和自然爱好者的梦想之旅。",
+    "imageCover": "tour-5-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2966",
+        "description": "马赛马拉国家保护区",
+        "type": "Point",
+        "coordinates": [35.141456, -1.519991],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2965",
+        "description": "塞伦盖蒂国家公园",
+        "type": "Point",
+        "coordinates": [34.759586, -2.333022],
+        "day": 5
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2964",
+        "description": "恩戈罗恩戈罗火山口",
+        "type": "Point",
+        "coordinates": [35.458746, -3.18825],
+        "day": 8
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "新西兰皇后镇",
+      "type": "Point",
+      "coordinates": [168.662646, -45.031162],
+      "address": "新西兰皇后镇海滩街25号"
+    },
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 8,
     "images": ["tour-6-1.jpg", "tour-6-2.jpg", "tour-6-3.jpg"],
     "startDates": [
-      "2021-07-19T09:00:00.000Z",
-      "2021-09-06T09:00:00.000Z",
-      "2022-03-18T10:00:00.000Z"
+      "2021-03-15T09:00:00.000Z",
+      "2021-04-20T09:00:00.000Z",
+      "2021-05-25T09:00:00.000Z"
     ],
-    "_id": "5c88fa8cf4afda39709c2966",
-    "name": "The Sports Lover",
-    "duration": 14,
-    "maxGroupSize": 8,
-    "difficulty": "difficult",
-    "guides": [
-      "5c8a21f22f8fb814b56fa18a",
-      "5c8a1f292f8fb814b56fa184",
-      "5c8a1f4e2f8fb814b56fa185"
-    ],
-    "price": 2997,
-    "summary": "Surfing, skating, parajumping, rock climbing and more, all in one tour",
-    "description": "Nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nVoluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur!",
+    "_id": "5c88fa8cf4afda39709c2967",
+    "name": "极限运动天堂",
+    "duration": 8,
+    "maxGroupSize": 18,
+    "difficulty": "困难",
+    "guides": ["5c8a24a02f8fb814b56fa193", "5c8a23de2f8fb814b56fa18e"],
+    "price": 1197,
+    "summary": "在新西兰体验世界顶级的极限运动",
+    "description": "在新西兰南岛体验世界最刺激的极限运动。这次旅程将带您跳伞、蹦极、峡谷秋千、喷射快艇和白水漂流。您将在皇后镇挑战极限，在米尔福德峡湾徒步，在福克斯冰川探索冰洞，在特卡波湖欣赏星空。这是为追求刺激的冒险者准备的终极挑战之旅。",
     "imageCover": "tour-6-cover.jpg",
     "locations": [
       {
-        "_id": "5c88fa8cf4afda39709c296b",
-        "description": "Point Dume Beach",
+        "_id": "5c88fa8cf4afda39709c296a",
+        "description": "皇后镇蹦极",
         "type": "Point",
-        "coordinates": [-118.809361, 34.003098],
+        "coordinates": [168.662646, -45.031162],
         "day": 1
       },
       {
-        "_id": "5c88fa8cf4afda39709c296a",
-        "description": "Venice Skate Park",
+        "_id": "5c88fa8cf4afda39709c2969",
+        "description": "米尔福德峡湾",
         "type": "Point",
-        "coordinates": [-118.47549, 33.987367],
+        "coordinates": [167.926655, -44.672907],
         "day": 4
       },
       {
-        "_id": "5c88fa8cf4afda39709c2969",
-        "description": "San Diego Skydive",
+        "_id": "5c88fa8cf4afda39709c2968",
+        "description": "福克斯冰川",
         "type": "Point",
-        "coordinates": [-116.830104, 33.022843],
+        "coordinates": [170.17033, -43.530247],
+        "day": 6
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "意大利罗马",
+      "type": "Point",
+      "coordinates": [12.496366, 41.902782],
+      "address": "意大利罗马市威尼斯广场10号"
+    },
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 11,
+    "images": ["tour-7-1.jpg", "tour-7-2.jpg", "tour-7-3.jpg"],
+    "startDates": [
+      "2021-04-10T09:00:00.000Z",
+      "2021-05-15T09:00:00.000Z",
+      "2021-06-20T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c296b",
+    "name": "地中海美食之旅",
+    "duration": 12,
+    "maxGroupSize": 16,
+    "difficulty": "容易",
+    "guides": ["5c8a21f22f8fb814b56fa18a", "5c8a23412f8fb814b56fa18c"],
+    "price": 2197,
+    "summary": "品尝地中海沿岸的精致美食",
+    "description": "穿越意大利、希腊和土耳其，品尝地中海沿岸最正宗的美食。这次旅程将带您参观传统酒庄，学习制作意大利面和披萨，品尝新鲜的海鲜和橄榄油。您将游览罗马的古迹、雅典的卫城、伊斯坦布尔的集市，在每个城市品尝当地特色菜肴，体验地中海地区的热情好客和美食文化。",
+    "imageCover": "tour-7-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c296e",
+        "description": "罗马斗兽场",
+        "type": "Point",
+        "coordinates": [12.49233, 41.890214],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c296d",
+        "description": "雅典卫城",
+        "type": "Point",
+        "coordinates": [23.725598, 37.971532],
         "day": 6
       },
       {
-        "_id": "5c88fa8cf4afda39709c2968",
-        "description": "Kern River Rafting",
+        "_id": "5c88fa8cf4afda39709c296c",
+        "description": "伊斯坦布尔蓝色清真寺",
         "type": "Point",
-        "coordinates": [-118.4547, 35.710359],
-        "day": 7
-      },
-      {
-        "_id": "5c88fa8cf4afda39709c2967",
-        "description": "Yosemite National Park",
-        "type": "Point",
-        "coordinates": [-119.600492, 37.742371],
+        "coordinates": [28.975533, 41.008238],
         "day": 10
       }
     ]
   },
   {
     "startLocation": {
-      "description": "Utah, USA",
+      "description": "印度新德里",
       "type": "Point",
-      "coordinates": [-109.55099, 37.283469],
-      "address": "Bluff, UT 84512, USA"
+      "coordinates": [77.209021, 28.613939],
+      "address": "印度新德里康诺特广场1号"
     },
     "ratingsAverage": 4.8,
-    "ratingsQuantity": 6,
+    "ratingsQuantity": 13,
     "images": ["tour-8-1.jpg", "tour-8-2.jpg", "tour-8-3.jpg"],
     "startDates": [
-      "2021-03-23T10:00:00.000Z",
-      "2021-10-25T09:00:00.000Z",
-      "2022-01-30T10:00:00.000Z"
+      "2021-10-01T09:00:00.000Z",
+      "2021-11-05T09:00:00.000Z",
+      "2021-12-15T09:00:00.000Z"
     ],
-    "_id": "5c88fa8cf4afda39709c2970",
-    "name": "The Star Gazer",
-    "duration": 9,
-    "maxGroupSize": 8,
-    "difficulty": "medium",
-    "guides": ["5c8a21d02f8fb814b56fa189", "5c8a1f292f8fb814b56fa184"],
-    "price": 2997,
-    "summary": "The most remote and stunningly beautiful places for seeing the night sky",
-    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "_id": "5c88fa8cf4afda39709c296f",
+    "name": "文化瑜伽之旅",
+    "duration": 16,
+    "maxGroupSize": 14,
+    "difficulty": "中等",
+    "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a1ec62f8fb814b56fa183"],
+    "price": 1697,
+    "summary": "在印度体验古老的瑜伽和冥想传统",
+    "description": "深入印度，体验古老瑜伽和冥想的神奇力量。这次旅程将带您访问瑞诗凯诗——世界瑜伽之都，在恒河畔冥想，在喜马拉雅山脚下修行。您将学习古老的瑜伽技巧，体验阿育吠陀理疗，参观古老的寺庙和道场。这是一次身心净化之旅，将帮助您找到内心的平静与和谐。",
     "imageCover": "tour-8-cover.jpg",
     "locations": [
       {
-        "_id": "5c88fa8cf4afda39709c2973",
-        "description": "Natural Bridges National Monument",
-        "type": "Point",
-        "coordinates": [-109.99953, 37.629017],
-        "day": 1
-      },
-      {
         "_id": "5c88fa8cf4afda39709c2972",
-        "description": "Horseshoe Bend",
+        "description": "瑞诗凯诗",
         "type": "Point",
-        "coordinates": [-111.50954, 36.883269],
+        "coordinates": [78.267599, 30.097458],
         "day": 3
       },
       {
         "_id": "5c88fa8cf4afda39709c2971",
-        "description": "Death Valley National Park",
+        "description": "瓦拉纳西恒河",
         "type": "Point",
-        "coordinates": [-117.07399, 36.501435],
-        "day": 6
+        "coordinates": [83.005682, 25.317684],
+        "day": 8
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2970",
+        "description": "达兰萨拉",
+        "type": "Point",
+        "coordinates": [76.279949, 32.216731],
+        "day": 12
       }
     ]
   },
   {
     "startLocation": {
-      "description": "Yellowknife, CAN",
+      "description": "巴西里约热内卢",
       "type": "Point",
-      "coordinates": [-114.406097, 62.439943],
-      "address": "Yellowknife, NT X1A 2L2, Canada"
+      "coordinates": [-43.172896, -22.906847],
+      "address": "巴西里约热内卢市科帕卡巴纳海滩200号"
     },
-    "ratingsAverage": 4.7,
+    "ratingsAverage": 4.9,
     "ratingsQuantity": 7,
     "images": ["tour-9-1.jpg", "tour-9-2.jpg", "tour-9-3.jpg"],
     "startDates": [
-      "2021-12-16T10:00:00.000Z",
-      "2022-01-16T10:00:00.000Z",
-      "2022-12-12T10:00:00.000Z"
+      "2021-02-15T09:00:00.000Z",
+      "2021-03-25T09:00:00.000Z",
+      "2021-04-30T09:00:00.000Z"
     ],
-    "_id": "5c88fa8cf4afda39709c2974",
-    "name": "The Northern Lights",
-    "duration": 3,
-    "maxGroupSize": 12,
-    "difficulty": "easy",
-    "guides": [
-      "5c8a21f22f8fb814b56fa18a",
-      "5c8a201e2f8fb814b56fa186",
-      "5c8a23412f8fb814b56fa18c"
-    ],
-    "price": 1497,
-    "summary": "Enjoy the Northern Lights in one of the best places in the world",
-    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum!\nDolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, exercitation ullamco laboris nisi ut aliquip. Lorem ipsum dolor sit amet, consectetur adipisicing elit!",
+    "_id": "5c88fa8cf4afda39709c2973",
+    "name": "热带雨林探险",
+    "duration": 11,
+    "maxGroupSize": 13,
+    "difficulty": "中等",
+    "guides": ["5c8a211f2f8fb814b56fa188", "5c8a24822f8fb814b56fa192"],
+    "price": 1397,
+    "summary": "探索亚马逊热带雨林的神秘世界",
+    "description": "深入亚马逊热带雨林，探索地球之肺的神秘世界。这次旅程将带您乘船游览亚马逊河，徒步穿越原始森林，参观原住民部落，体验真正的雨林生活。您将看到色彩斑斓的热带鸟类、调皮的猴子、优雅的海豚和神秘的粉红河豚。这是一次与大自然亲密接触的冒险之旅，让您感受热带雨林的壮美与神秘。",
     "imageCover": "tour-9-cover.jpg",
     "locations": [
       {
+        "_id": "5c88fa8cf4afda39709c2976",
+        "description": "科帕卡巴纳海滩",
+        "type": "Point",
+        "coordinates": [-43.176928, -22.970667],
+        "day": 1
+      },
+      {
         "_id": "5c88fa8cf4afda39709c2975",
-        "description": "Yellowknife",
+        "description": "亚马逊河",
         "type": "Point",
-        "coordinates": [-114.406097, 62.439943],
-        "day": 1
-      }
-    ]
-  },
-  {
-    "startLocation": {
-      "description": "California, USA",
-      "type": "Point",
-      "coordinates": [-122.29286, 38.294065],
-      "address": "560 Jefferson St, Napa, CA 94559, USA"
-    },
-    "ratingsAverage": 4.4,
-    "ratingsQuantity": 7,
-    "images": ["tour-7-1.jpg", "tour-7-2.jpg", "tour-7-3.jpg"],
-    "startDates": [
-      "2021-02-12T10:00:00.000Z",
-      "2021-04-14T09:00:00.000Z",
-      "2021-09-01T09:00:00.000Z"
-    ],
-    "_id": "5c88fa8cf4afda39709c296c",
-    "name": "The Wine Taster",
-    "duration": 5,
-    "maxGroupSize": 8,
-    "difficulty": "easy",
-    "guides": ["5c8a22c62f8fb814b56fa18b", "5c8a23412f8fb814b56fa18c"],
-    "price": 1997,
-    "summary": "Exquisite wines, scenic views, exclusive barrel tastings,  and much more",
-    "description": "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\nIrure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "imageCover": "tour-7-cover.jpg",
-    "locations": [
-      {
-        "_id": "5c88fa8cf4afda39709c296f",
-        "description": "Beringer Vineyards",
-        "type": "Point",
-        "coordinates": [-122.479887, 38.510312],
-        "day": 1
-      },
-      {
-        "_id": "5c88fa8cf4afda39709c296e",
-        "description": "Clos Pegase Winery & Tasting Room",
-        "type": "Point",
-        "coordinates": [-122.582948, 38.585707],
-        "day": 3
-      },
-      {
-        "_id": "5c88fa8cf4afda39709c296d",
-        "description": "Raymond Vineyard and Cellar",
-        "type": "Point",
-        "coordinates": [-122.434697, 38.482181],
+        "coordinates": [-60.025472, -3.064901],
         "day": 5
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2974",
+        "description": "马瑙斯",
+        "type": "Point",
+        "coordinates": [-60.025472, -3.064901],
+        "day": 8
       }
     ]
   }

@@ -20,12 +20,12 @@ block content
 
     .heading-box
       h1.heading-primary
-        span= `${tour.name} tour`
+        span= `${tour.name}之旅`
       .heading-box__group
         .heading-box__detail
           svg.heading-box__icon
             use(xlink:href='/img/icons.svg#icon-clock')
-          span.heading-box__text= `${tour.duration} days`
+          span.heading-box__text= `${tour.duration} 天`
         .heading-box__detail
           svg.heading-box__icon
             use(xlink:href='/img/icons.svg#icon-map-pin')
@@ -35,29 +35,29 @@ block content
     .overview-box
       div
         .overview-box__group
-          h2.heading-secondary.ma-bt-lg Quick facts
+          h2.heading-secondary.ma-bt-lg 快速信息
 
-          - const date = tour.startDates[0].toLocaleString('en-us', {month: 'long', year: 'numeric'})
-          +overviewBox('Next date', date, 'calendar')
-          +overviewBox('Difficulty', tour.difficulty, 'trending-up')
-          +overviewBox('Participants', `${tour.maxGroupSize} people`, 'user')
-          +overviewBox('Rating', `${tour.ratingsAverage} / 5`, 'star')
+          - const date = tour.startDates[0].toLocaleString('zh-cn', {month: 'long', year: 'numeric'})
+          +overviewBox('出发日期', date, 'calendar')
+          +overviewBox('难度等级', tour.difficulty, 'trending-up')
+          +overviewBox('团体人数', `${tour.maxGroupSize} 人`, 'user')
+          +overviewBox('用户评分', `${tour.ratingsAverage} / 5`, 'star')
 
         .overview-box__group
-          h2.heading-secondary.ma-bt-lg Your tour guides
+          h2.heading-secondary.ma-bt-lg 您的导游
 
           each guide in tour.guides
             .overview-box__detail
               img.overview-box__img(src=`/img/users/${guide.photo}`, alt=`${guide.name}`)
 
               - if (guide.role === 'lead-guide')
-                span.overview-box__label Lead guide
+                span.overview-box__label 首席导游
               - if (guide.role === 'guide')
-                span.overview-box__label Tour guide
+                span.overview-box__label 专业导游
               span.overview-box__text= guide.name
 
     .description-box
-      h2.heading-secondary.ma-bt-lg= `About ${tour.name} tour`
+      h2.heading-secondary.ma-bt-lg= `关于${tour.name}之旅`
       - const parapraphs = tour.description.split('\n');
       each p in parapraphs
         p.description__text= p
@@ -78,14 +78,14 @@ block content
   section.section-cta
     .cta
       .cta__img.cta__img--logo
-        img(src='/img/logo-white.png', alt='Natours logo')
+        img(src='/img/logo-white.png', alt='梦之旅 logo')
       img.cta__img.cta__img--1(src=`/img/tours/${tour.images[1]}`, alt='Tour picture')
       img.cta__img.cta__img--2(src=`/img/tours/${tour.images[2]}`, alt='Tour picture')
       .cta__content
-        h2.heading-secondary What are you waiting for?
-        p.cta__text= `${tour.duration} days. 1 adventure. Infinite memories. Make it yours today!`
-        
+        h2.heading-secondary 还在等什么？
+        p.cta__text= `${tour.duration} 天的冒险。无限的美好回忆。今天就让它成为您的专属经历！`
+
         if user
-          button.btn.btn--green.span-all-rows#book-tour(data-tour-id=`${tour.id}`) Book tour now!
+          button.btn.btn--green.span-all-rows#book-tour(data-tour-id=`${tour.id}`) 立即预订！
         else
-          a.btn.btn--green.span-all-rows(href='/login') Log in to book tour
+          a.btn.btn--green.span-all-rows(href='/login') 登录后预订

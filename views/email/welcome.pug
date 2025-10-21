@@ -1,9 +1,9 @@
 extends baseEmail
 
 block content
-  p Hi #{firstName},
-  p Welcome to Natours, we're glad to have you 🎉🙏
-  p We're all a big familiy here, so make sure to upload your user photo so we get to know you a bit better!
+  p 您好 #{firstName},
+  p 欢迎加入梦之旅，我们很高兴您的加入 🎉🙏
+  p 我们是一个大家庭，请务必上传您的用户照片，让我们更好地认识您！
   table.btn.btn-primary(role='presentation', border='0', cellpadding='0', cellspacing='0')
     tbody
       tr
@@ -12,6 +12,6 @@ block content
             tbody
               tr
                 td
-                  a(href=`${url}`, target='_blank') Upload user photo
-  p If you need any help with booking your next tour, please don't hesitate to contact me!
-  p - Jonas Schmedtmann, CEO
+                  a(href=`${url}`, target='_blank') 上传用户照片
+  p 如果您在预订下一个旅游行程时需要任何帮助，请随时联系我！
+  p - 梦之旅团队
