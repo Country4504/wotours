@@ -45,11 +45,24 @@ if (logOutBtn) logOutBtn.addEventListener('click', logout);
 if (userDataForm)
   userDataForm.addEventListener('submit', e => {
     e.preventDefault();
-    const form = new FormData();
-    form.append('name', document.getElementById('name').value);
-    form.append('email', document.getElementById('email').value);
-    form.append('photo', document.getElementById('photo').files[0]);
+    console.log('Form submitted!'); // Debug log
 
+    const form = new FormData();
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const photoFile = document.getElementById('photo').files[0];
+
+    console.log('Name:', name); // Debug log
+    console.log('Email:', email); // Debug log
+    console.log('Photo file:', photoFile); // Debug log
+
+    form.append('name', name);
+    form.append('email', email);
+    if (photoFile) {
+      form.append('photo', photoFile);
+    }
+
+    console.log('FormData created, calling updateSettings...'); // Debug log
     updateSettings(form, 'data');
   });
 
