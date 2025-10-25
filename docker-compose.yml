@@ -16,7 +16,7 @@ services:
     environment:
       - NODE_ENV=development
       - PORT=3000
-      - DATABASE=mongodb://mongo:27017/natours-test
+      - DATABASE=mongodb://admin:Natours12356@mongo:27017/natours-test?authSource=admin
       - JWT_SECRET=my-ultra-secure-and-long-secret-key
       - JWT_EXPIRES_IN=90d
       - JWT_COOKIE_EXPIRES_IN=90
@@ -34,7 +34,9 @@ services:
     volumes:
       - mongo-data:/data/db
     environment:
-      - MONGO_INITDB_DATABASE=natours-dev
+      - MONGO_INITDB_DATABASE=natours-test
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=Natours12356
     networks:
       - natours-network
     restart: unless-stopped

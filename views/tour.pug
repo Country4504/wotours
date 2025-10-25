@@ -84,6 +84,6 @@ block content
         p.cta__text= `${tour.duration} 天的冒险。无限的美好回忆。今天就让它成为您的专属经历！`
 
         if user
-          button.btn.btn--green.span-all-rows#book-tour(data-tour-id=`${tour.id}`) 立即预订！
+          button.btn.btn--green.span-all-rows#book-tour(data-tour-id=`${tour.id}` style='display: none;') 立即预订！
         else
-          a.btn.btn--green.span-all-rows(href='/login') 登录后预订
+          a.btn.btn--green.span-all-rows(href='/login' style='display: none;') 登录后预订

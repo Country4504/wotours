@@ -63,7 +63,7 @@ echo "找到数据库目录: $DB_DIR"
 
 # 导入数据库
 echo "正在导入数据库 $DB_NAME..."
-docker exec natours-mongo mongorestore --db $DB_NAME --drop $DB_DIR
+docker exec natours-mongo mongorestore --uri "mongodb://admin:Natours12356@localhost:27017/$DB_NAME?authSource=admin" --drop $DB_DIR
 
 # 清理临时文件
 echo "清理临时文件..."
@@ -78,12 +78,12 @@ echo "=========================================="
 echo ""
 echo "数据库信息:"
 echo "集合列表:"
-docker exec natours-mongo mongosh $DB_NAME --eval "db.getCollectionNames().forEach(function(name){print('- ' + name)});" --quiet
+docker exec natours-mongo mongosh --uri "mongodb://admin:Natours12356@localhost:27017/$DB_NAME?authSource=admin" --eval "db.getCollectionNames().forEach(function(name){print('- ' + name)});" --quiet
 
 echo ""
 echo "文档总数:"
-docker exec natours-mongo mongosh $DB_NAME --eval "var count = 0; db.getCollectionNames().forEach(function(name){count += db[name].countDocuments()}); print('总文档数: ' + count);" --quiet
+docker exec natours-mongo mongosh --uri "mongodb://admin:Natours12356@localhost:27017/$DB_NAME?authSource=admin" --eval "var count = 0; db.getCollectionNames().forEach(function(name){count += db[name].countDocuments()}); print('总文档数: ' + count);" --quiet
 
 echo ""
 echo "各个集合的文档数:"
-docker exec natours-mongo mongosh $DB_NAME --eval "db.getCollectionNames().forEach(function(name){print(name + ': ' + db[name].countDocuments())});" --quiet
+docker exec natours-mongo mongosh --uri "mongodb://admin:Natours12356@localhost:27017/$DB_NAME?authSource=admin" --eval "db.getCollectionNames().forEach(function(name){print(name + ': ' + db[name].countDocuments())});" --quiet
